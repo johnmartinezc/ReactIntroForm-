@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+thead{
+  background-color: aqua;
+
+}
+button {
+  background-color: rgb(43, 34, 124);
+  color: aliceblue;
+}
+
+tr:hover{
+background-color: rgba(0, 0, 255, 0.591);
+
+}
+
+form{
+  text-align: center;
+
+}
+
+#root{
+  background-color: rgb(129, 128, 128);
+}
+
+input{
+  text-align: center;
+  background-color: transparent;
+  color: rgb(5, 52, 224);
+
+}
+
+input:hover{
+background-color: rgb(255, 255, 255);
+}
