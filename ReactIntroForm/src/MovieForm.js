@@ -14,6 +14,8 @@ class MovieForm extends Component {
         };
         this.state = this.initalState;
     }
+
+    
     handleChange = event => {
         const{name, value} = event.target;
         this.setState ({
@@ -51,4 +53,6 @@ class MovieForm extends Component {
         )
     }
   }
+
+  
 export default MovieForm
